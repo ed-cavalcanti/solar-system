@@ -1,3 +1,158 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .App {
   text-align: center;
+}
+
+header {
+  display: flex;
+  background-color: #212B38;
+  color: aliceblue;
+  height: 60px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image: url('./images/background.png');
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.planetMainContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planetMainContainer h2 {
+  color: aliceblue;
+}
+
+.planetsContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1300px) {
+  .planetsContainer {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.planetCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #212B38;
+  box-shadow: 13px 16px 15px -3px rgba(0,0,0,0.1);
+}
+
+.planetCard:nth-of-type(1) img {
+  width: 41px;
+  height: 31px;
+  margin: 40px;
+}
+
+.planetCard:nth-of-type(2) img {
+  width: 102px;
+  height: 76px;
+  margin: 20px;
+}
+
+.planetCard:nth-of-type(3) img {
+  width: 106px;
+  height: 79px;
+  margin: 20px;
+}
+
+.planetCard:nth-of-type(4) img {
+  width: 66px;
+  height: 50px;
+  margin: 35px;
+}
+
+.planetCard:nth-of-type(5) img {
+  width: 140px;
+  height: 110px;
+  margin: 5px;
+}
+
+.planetCard:nth-of-type(6) img {
+  width: 140px;
+  height: 120px;
+}
+
+.planetCard:nth-of-type(7) img {
+  width: 144px;
+  height: 109px;
+}
+
+.planetCard:nth-of-type(8) img {
+  width: 144px;
+  height: 107px;
+  margin: 3px;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.missions h2 {
+  color: aliceblue;
+  text-align: center;
+}
+
+.missions-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 240px;
+  height: 140px;
+  background-color: #212B38;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.mission-card p:nth-of-type(1) {
+  color: rgb(14, 0, 14);
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.mission-card hr {
+  width: 238px;
+  height: 2px;
+  background-color: #161d25;
+  border: none;
 }
