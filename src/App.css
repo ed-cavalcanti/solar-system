@@ -66,47 +66,47 @@ header h1 {
   width: 150px;
 }
 
-.planetCard:nth-of-type(1) img {
+.planetCard:nth-of-type( 1 ) img {
   height: 31px;
   margin: 40px;
   width: 41px;
 }
 
-.planetCard:nth-of-type(2) img {
+.planetCard:nth-of-type( 2 ) img {
   height: 76px;
   margin: 20px;
   width: 102px;
 }
 
-.planetCard:nth-of-type(3) img {
+.planetCard:nth-of-type( 3 ) img {
   height: 79px;
   margin: 20px;
   width: 106px;
 }
 
-.planetCard:nth-of-type(4) img {
+.planetCard:nth-of-type( 4 ) img {
   height: 50px;
   margin: 35px;
   width: 66px;
 }
 
-.planetCard:nth-of-type(5) img {
+.planetCard:nth-of-type( 5 ) img {
   height: 110px;
   margin: 5px;
   width: 140px;
 }
 
-.planetCard:nth-of-type(6) img {
+.planetCard:nth-of-type( 6 ) img {
   height: 120px;
   width: 140px;
 }
 
-.planetCard:nth-of-type(7) img {
+.planetCard:nth-of-type( 7 ) img {
   height: 109px;
   width: 144px;
 }
 
-.planetCard:nth-of-type(8) img {
+.planetCard:nth-of-type( 8 ) img {
   height: 107px;
   margin: 3px;
   width: 144px;
@@ -143,7 +143,7 @@ header h1 {
   width: 240px;
 }
 
-.mission-card p:nth-of-type(1) {
+.mission-card p:nth-of-type( 1 ) {
   color: rgb(14, 0, 14);
   font-size: 16px;
   font-weight: bold;
